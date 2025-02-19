@@ -1,7 +1,5 @@
 # Producer-Consumer Problem Solution Using Semaphores
 
-# Producer-Consumer Problem Solution
-
 ## Project Description
 This project implements the classic producer-consumer problem using semaphores for synchronization. Producers generate items within a specified range and add them to a shared storage, while consumers remove items from the storage. The storage state is maintained in a file named `magazyn.txt`, and each producer/consumer thread logs its actions to a separate log file.
 
